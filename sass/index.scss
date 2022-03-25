@@ -1,0 +1,114 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Inter:wght@300;500;700&display=swap"); 
+/* Variables */
+
+$principal:#EDC0C0;
+$secondary: #fff;
+$font-primary: "Inter", sans-serif;
+$font-secondary: "Bowly One SC", cursive;
+
+
+
+/*normalize*/
+*, ::after, ::before {
+    box-sizing:inherit; 
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none; 
+}
+
+:hover{
+    margin: 0%;
+    padding: 0%;
+}  
+/*globals*/
+html{
+    font-size: 62.5%;
+
+
+} 
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+}
+
+ul{
+    list-style-type: none;    
+    a{
+        text-decoration: none;
+        color:white;
+        display: inline-block; 
+    } 
+}
+/*inicio de nav*/
+
+.header{
+    background: #EDC0C0;
+    /* padding: 35px; */
+    border: #ecdbdb solid;
+    height: 120px;
+    margin-top: 0px;
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between; 
+        padding-top: 0.5rem; 
+        padding-bottom: 0.5rem; 
+        background: #EDC0C0;  
+left: 0px;
+top: 1px;
+justify-content: space-around;
+align-items: center;
+        .logoimg{
+            width: 150px;
+            height: 123px;
+            top: 0px;
+            float: right;
+            flex-basis: 30%;
+        
+        }
+        .menu{
+            justify-content: center;
+            overflow: hidden;
+        
+        }
+                .menu--item{
+            display: inline;
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+            font-family: Poppins;
+        }
+                .menu--item:hover{
+            border-color:var(--secundary)
+        } 
+                        .menu--link {
+            font-size: 1.8em;
+            padding: 1rem; 
+                padding: 1rem; 
+                font-size: 1.4em;
+                font-family: Poppins;
+                box-sizing: inherit;
+            
+        }
+    }
+}
+
+
+
+
+header .navbar {  
+
+}
+header 
+
+.menu
+menu 
+.menu .menu--item 
+.navbar .menu .menu--item 

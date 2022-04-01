@@ -1,3 +1,4 @@
+
 /*inicio de nav*/
 
 .header{
@@ -6,59 +7,57 @@
     border: #ecdbdb solid;
     height: 120px;
     margin-top: 0px;
-}
-.navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between; 
-    padding-top: 0.5rem; 
-    padding-bottom: 0.5rem; 
-}
-
-.logoimg{
-    width: 150px;
-    height: 123px;
-    top: 0px;
-    float: right;
-    flex-basis: 30%;
-
-}
-
-header .navbar {  
-background: #EDC0C0;  
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between; 
+        padding-top: 0.5rem; 
+        padding-bottom: 0.5rem; 
+        background: #EDC0C0;  
 left: 0px;
 top: 1px;
 justify-content: space-around;
 align-items: center;
+        .logoimg{
+            width: 150px;
+            height: 123px;
+            top: 0px;
+            float: right;
+            flex-basis: 30%;
+        
+        }
+        .menu{
+            justify-content: center;
+            overflow: hidden;
+        
+        }
+         
+                .menu--item{
+            display: inline;
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+            font-family: Poppins;
+        }
+                &:hover{
+            border-color:var(--secundary)
+        } 
+               
+                        .menu--link {
+            font-size: 1.8em;
+            padding: 1rem; 
+                padding: 1rem; 
+                font-size: 1.4em;
+                font-family: Poppins;
+                box-sizing: inherit;
+            
+        }
+    }
 }
-header .menu{
-    justify-content: center;
-    overflow: hidden;
 
-}
 
-.menu .menu--item1{
-    display: inline;
-    text-align: center;
-    font-weight: bold;
-    font-size: xx-large;
-    font-family: Poppins;
-}
-menu .menu--item:hover{
-    border-color:var(--secundary)
-} 
-.menu .menu--item .menu--link {
-    font-size: 1.8em;
-    padding: 1rem; 
-}
-.navbar .menu .menu--item .menu--link{
-    padding: 1rem; 
-    font-size: 1.4em;
-    font-family: Poppins;
-    box-sizing: inherit;
-}
 
 
 /*cierre de fila nav*/

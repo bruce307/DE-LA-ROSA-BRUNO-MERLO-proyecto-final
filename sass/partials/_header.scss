@@ -16,10 +16,10 @@
         padding-top: 0.5rem; 
         padding-bottom: 0.5rem; 
         background: #EDC0C0;  
-left: 0px;
-top: 1px;
-justify-content: space-around;
-align-items: center;
+        left: 0px;
+        top: 1px;
+        justify-content: space-around;
+        align-items: center;
         .logoimg{
             width: 150px;
             height: 123px;
@@ -33,7 +33,6 @@ align-items: center;
             overflow: hidden;
         
         }
-         
                 .menu--item{
             display: inline;
             text-align: center;
@@ -42,44 +41,48 @@ align-items: center;
             font-family: Poppins;
         }
                 &:hover{
-            border-color:var(--secundary)
+            border-color: $secondary
         } 
-               
                         .menu--link {
-            font-size: 1.8em;
-            padding: 1rem; 
-                padding: 1rem; 
-                font-size: 1.4em;
-                font-family: Poppins;
-                box-sizing: inherit;
+                    font-size: 1.8em;
+                    padding: 1rem; 
+                    padding: 1rem; 
+                    font-size: 1.4em;
+                    font-family: Poppins;
+                    box-sizing: inherit;
             
         }
     }
 }
-
-
-
-
 /*cierre de fila nav*/
 /* MEDIA QUERIES*/
-@media screen and ( min-width: 320px )
+@media screen and ( min-width: 320px ) and ( max-width: 576px)
     {
+        header{
+            overflow: hidden;
+    
+            padding: 2em 0; 
+            &.menu {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+                &.menu--link{
+                color: #cf5656 !important;
+            }
+        }
         a{
             float: none;
             width: 100%;
+            text-align: center;
         }
-        header{
-    
-            /* padding: 2em 0; */
+        .logo3{
+            flex-wrap: wrap;
         }
-.header .menu {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.logo3{
-    flex-wrap: wrap;
-}
-.img{
-    flex-grow: 2;
-}
-}
+        .img{
+            flex-grow: 2;
+        }
+        
+        }
+
+
+

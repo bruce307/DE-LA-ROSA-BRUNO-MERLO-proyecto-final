@@ -21,7 +21,7 @@ box-sizing:inherit;  */
     padding: 0%;
     text-decoration: none;
     list-style: none; */
-    box-sizing: inherit;
+    box-sizing: content-box;
 } 
 
 /* :hover{
@@ -162,9 +162,9 @@ main section picture {
  /* picture{
     display: flex;
 }  */
-/* .container{
+ .container{
 width:100%
-} */
+} 
 /* .logo{
 background: rgb(185, 24, 24);
 padding: 20px;
@@ -369,8 +369,8 @@ color: #1D1D22;
 
 }
 #direction-datos{
-width: 154px;
-height: 23px;
+/* width: 154px;
+height: 23px; */
 left: 113px;
 top: 412px;
 

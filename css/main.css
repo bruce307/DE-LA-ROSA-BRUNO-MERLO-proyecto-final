@@ -332,8 +332,8 @@ h1 {
     line-height: 19px;
     color: #1D1D22; }
   .container-contact #direction-datos {
-    width: 154px;
-    height: 23px;
+    /* width: 154px;
+    height: 23px; */
     left: 113px;
     top: 412px;
     font-family: Roboto;

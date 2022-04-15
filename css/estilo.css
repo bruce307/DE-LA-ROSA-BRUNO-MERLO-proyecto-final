@@ -210,18 +210,20 @@ margin-left: auto;
 .img2__fila1{
 /* display: inline-block;
 align-content: space-between; */
+flex-direction: column;
     width: 381px;
     height: 215px;
-    left: 129px;
-    top: 203px;
+    /* left: 129px; */
+    top: 209px;
 
 }
 .img2__fila2{
     /* background-size: cover; */
+    flex-direction: column;
     width: 381px;
 height: 215px;
-left: 129px;
-top: 203px;
+/* left: 129px; */
+top: 209px;
 }
 
 .img2__fila1--ev{
@@ -517,7 +519,7 @@ color: #FFFFFF;
     color: #a8a3a3 !important;
 }
 .logo3{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .img{

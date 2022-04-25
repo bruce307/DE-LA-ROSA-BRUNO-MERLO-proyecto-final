@@ -291,9 +291,7 @@
             margin-right: auto;
           }
       }
-      .badge {
-        transform: translate(-1px, 30px);
-      }
+    
       h1 {
         display: grid;
         justify-items: center;
@@ -328,113 +326,117 @@
         left: 97px;
         top: 464px;
         opacity: 0.6;
+        .badge {
+            transform: translate(-1px, 30px);
+          }
+          .datos {
+            flex-direction: row;
+            position: sticky;
+            margin-bottom: 30px;
+            width: 112px;
+            height: 30px;
+            left: 76px;
+            top: 228px;
+            right: 79px;
+            background: #c4c4c4;
+            opacity: 0.6;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            align-items: center;
+            text-align: center;
+          }
+          .datos1 {
+            flex-direction: row;
+            position: sticky;
+            width: 112px;
+            height: 30px;
+            left: 76px;
+            top: 228px;
+            right: 79px;
+            background: #c4c4c4;
+            opacity: 0.6;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            align-items: center;
+            text-align: center;
+          }
+          .botton1 {
+            flex-direction: row;
+            position: sticky;
+            margin-bottom: 30px;
+            width: 83px;
+            height: 28px;
+            left: 122px;
+            top: 296px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1d1d22;
+            background: #c4c4c4;
+            border-radius: 6px;
+          }
+          .botton2 {
+            flex-direction: row;
+            position: sticky;
+            width: 83px;
+            height: 29px;
+            left: 233px;
+            top: 296px;
+            margin-bottom: 30px;
+            background: #c4c4c4;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1d1d22;
+          }
+          #direction-datos {
+            left: 113px;
+            top: 412px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 23px;
+            text-align: center;
+            color: #000000;
+          }
+          .direction {
+            width: 314px;
+            left: 97px;
+            top: 464px;
+            background: #c4c4c4;
+            opacity: 0.6;
+            border-radius: 6px;
+            text-align: center;
+          }
+          .terminos {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000000;
+          }
+          textarea {
+            min-height: 100px;
+            max-height: 250px;
+            max-width: 375px;
+          }
       }
-      .datos1 {
-        flex-direction: row;
-        position: sticky;
-        width: 112px;
-        height: 30px;
-        left: 76px;
-        top: 228px;
-        right: 79px;
-        background: #c4c4c4;
-        opacity: 0.6;
-        border-radius: 6px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        align-items: center;
-        text-align: center;
-      }
-      .datos {
-        flex-direction: row;
-        position: sticky;
-        margin-bottom: 30px;
-        width: 112px;
-        height: 30px;
-        left: 76px;
-        top: 228px;
-        right: 79px;
-        background: #c4c4c4;
-        opacity: 0.6;
-        border-radius: 6px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        align-items: center;
-        text-align: center;
-      }
-      .botton1 {
-        flex-direction: row;
-        position: sticky;
-        margin-bottom: 30px;
-        width: 83px;
-        height: 28px;
-        left: 122px;
-        top: 296px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #1d1d22;
-        background: #c4c4c4;
-        border-radius: 6px;
-      }
-      .botton2 {
-        flex-direction: row;
-        position: sticky;
-        width: 83px;
-        height: 29px;
-        left: 233px;
-        top: 296px;
-        margin-bottom: 30px;
-        background: #c4c4c4;
-        border-radius: 6px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #1d1d22;
-      }
-      #direction-datos {
-        left: 113px;
-        top: 412px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 23px;
-        text-align: center;
-        color: #000000;
-      }
-      .direction {
-        width: 314px;
-        left: 97px;
-        top: 464px;
-        background: #c4c4c4;
-        opacity: 0.6;
-        border-radius: 6px;
-        text-align: center;
-      }
-    
-      .terminos {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 23px;
-        color: #000000;
-      }
-      textarea {
-        min-height: 100px;
-        max-height: 250px;
-        max-width: 375px;
-      }
+      
+     
     footer {
       position: fixed;
       background: #edc0c0;
@@ -444,4 +446,3 @@
       bottom: 0;
       left: 0;
     }
-} 

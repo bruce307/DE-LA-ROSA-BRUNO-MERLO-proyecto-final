@@ -10,13 +10,13 @@
     top: 1px;
     justify-content: space-around;
     align-items: center;
+    padding: 27px;
     &.logoimg {
       width: 81px;
       height: 51px;
       top: 0px;
       float: right;
       flex-basis: 30%;
-      padding: 27px;
       &.menu {
         justify-content: center;
         overflow: hidden;
@@ -39,6 +39,7 @@
     header {
       overflow: hidden;
       padding: 2em 0;
+      margin: 2px;
       &.menu {
         flex-wrap: wrap;
         justify-content: center;
@@ -52,11 +53,10 @@
       width: 100%;
       text-align: center;
     }
-    .logo3 {
-      flex-wrap: wrap;
-    }
     .img {
       flex-grow: 2;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }

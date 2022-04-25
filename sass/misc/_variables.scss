@@ -1,6 +1,11 @@
 /*variables*/
 
-$principal:#EDC0C0;
-$secondary: #FFFFFF;
+$principal: #edc0c0;
+$secondary: #ffffff;
 $font-primary: "Inter", sans-serif;
 $font-secondary: "Bowly One SC", cursive;
+/*helpers*/
+
+.flex-row {
+  display: flex;
+}
